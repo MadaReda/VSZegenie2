@@ -36,7 +36,7 @@ function init() {
 	
 	exportRoot.rtry.visible = false;
 	stage.update();
-
+	createjs.Touch.enable(stage);
 	createjs.Ticker.setFPS(24);
 	createjs.Ticker.addListener(stage);
 	
