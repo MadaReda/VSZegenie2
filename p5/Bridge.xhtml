@@ -1,0 +1,46 @@
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="UTF-8"/>
+<title>CreateJS export from Bridge</title>
+
+<script src="scripts/easeljs-0.5.0.min.js"></script>
+<script src="scripts/tweenjs-0.3.0.min.js"></script>
+<script src="scripts/movieclip-0.5.0.min.js"></script>
+<script src="scripts/header.js"></script>
+
+<script src="Bridge.js"></script>
+<script src="BridgeObject.js"></script>
+
+</head>
+
+<body style="background-color:#ffffff">
+	
+     <div style="text-align:center;">
+		<canvas id="canvas1" width="200" height="40" style="background-color:#ffffff;">
+			your browser doesn't support html5.
+		</canvas>
+ 	</div>
+ 
+ 	<div id="bg" style="background-image:url(BridgeBG.png);width:550px;height:700px;background-repeat:no-repeat; z-index:0; position:relative;">
+    </div>
+    
+    <canvas id="canvas" width="550" height="700" style="position:relative; z-index:1;">
+    	your browser doesn't support html5.
+    </canvas>
+    
+    <audio id="right">
+    <source src="sounds/right.mp3"></source>
+     <source src="sounds/right.ogg"></source>
+    </audio>
+    <audio id="wrong">
+    <source src="sounds/error.mp3"></source>
+     <source src="sounds/error.ogg"></source>
+    </audio>
+    <audio id="click">
+    <source src="sounds/Click.mp3"></source>
+     <source src="sounds/Click.ogg"></source>
+    </audio>
+    
+</body>
+</html>

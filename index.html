@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Test Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1 style="text-align: center">القائمة الرئيسية</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">
+        <li><a href="#page2" style="text-align: right">عرض النص </a></li>
+		<li><a href="#page3" style="text-align: right">عرض الفيديو</a></li>
+		<li><a href="#page4" style="text-align: right">ادخال قيم</a></li>
+        <li><a href="#page5" style="text-align: right">تفاعلى Click</a></li>
+        <li><a href="#page6" style="text-align: right">تفاعلى drag & drop</a></li>
+    </ul>	
+	</div>
+	<div data-role="footer">
+		<h4>المتحدة جروب<span style="text-align: right"></span> للتعليم&copy;<span style="text-align: right"></span></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" >
+	<div data-role="header">
+    	<a data-rel="back" data-role="button">الرجوع </a>
+		<h1>عرض النص </h1>
+	</div>
+	<div data-role="content">	
+		<iframe src="p1/ArticleBrowser.html" width="100%" height="700px" />	</iframe>	
+	</div>
+	<div data-role="footer">
+		<h4>2/6</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <a data-rel="back" data-role="button">الرجوع </a>
+		<h1>عرض الفيديو</h1>
+	</div>
+	<div data-role="content">		
+        <video src="images/Sequence 01_1.mp4" controls width="90%" height="auto"></video>	
+	</div>
+	<div data-role="footer">
+		<h4>3/6</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+    	<a data-rel="back" data-role="button">الرجوع </a>
+		<h1>ادخال قيم</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>4/6</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+   		<a data-rel="back" data-role="button" >الرجوع </a>
+		<h1>تفاعلى Click</h1>
+	</div>
+	<div data-role="content">	
+		<iframe src="p5/shohorMeladeya.xhtml" width="100%" height="700px" >	</iframe>	
+	</div>
+	<div data-role="footer">
+		<h4>5/6</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+    	<a data-rel="back" data-role="button">الرجوع </a>
+		<h1>تفاعلى drag & drop</h1>
+	</div>
+	<div data-role="content">		
+        <iframe src="p5/Bridge.xhtml" width="100%" height="700px" ></iframe>
+	</div>
+	<div data-role="footer">
+		<h4>6/6</h4>
+	</div>
+</div>
+
+</body>
+</html>
