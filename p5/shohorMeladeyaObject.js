@@ -69,9 +69,9 @@ function init() {
 		exportRoot["m_"+i].onClick=setpoint;
 		exportRoot["m_"+i].id=i;
 	}
-
+	createjs.Touch.enable(stage);
 	createjs.Ticker.setFPS(50);
-	//createjs.Ticker.addListener(stage);
+	createjs.Ticker.addListener(stage);
 	
 	fSound.addEventListener('play', function() {fSound.currentTime = 0;}, false);
     rSound.addEventListener('play', function() {rSound.currentTime = 0;}, false);
